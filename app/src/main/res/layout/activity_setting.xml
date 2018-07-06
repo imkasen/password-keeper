@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ctv="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorDoderBlue" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp" >
+
+            <com.allen.library.CommonTextView
+                android:id="@+id/empty_account"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+
+                ctv:cCenterTextString="@string/empty_account"
+                ctv:cCenterTextSize="24sp"
+                ctv:cCenterTextColor="@color/colorRed"
+
+                ctv:cUseRipple="true"
+
+                ctv:cShowDividerLineType="both"
+                ctv:cDividerLineHeight="2dp"/>
+
+            <com.allen.library.CommonTextView
+                android:id="@+id/delete_register"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+
+                ctv:cCenterTextString="@string/delete_register"
+                ctv:cCenterTextSize="24sp"
+                ctv:cCenterTextColor="@color/colorRed"
+
+                ctv:cUseRipple="true"
+
+                ctv:cShowDividerLineType="both"
+                ctv:cDividerLineHeight="2dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.gc.materialdesign.views.ScrollView>

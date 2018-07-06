@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Password_Keeper</string>
+
+    <!-- 登录界面 -->
+
+    <string name="login_email">登录邮箱：</string>
+    <string name="login_pwd">密码：</string>
+    <string name="button_login">登录</string>
+    <string name="link_signup">还没有账号？请注册</string>
+
+    <!-- 注册界面 -->
+
+    <string name="signup_username">用户名：</string>
+    <string name="signup_email">邮箱：</string>
+    <string name="signup_pwd">密码：</string>
+    <string name="signup_pwd_check">请再次输入密码：</string>
+    <string name="button_signup">注册</string>
+    <string name="link_login">已经拥有账号？请登录</string>
+
+
+    <!-- 侧边栏 -->
+    <string name="home_page">首页</string>
+    <string name="addPwd">添加账户</string>
+    <string name="checkPwd">查看账户</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+
+    <!-- 对话框 -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!-- 首页 -->
+    <string name="hello">你好！</string>
+
+    <!-- 添加密码页 -->
+    <string name="title_addpwd">标题：</string>
+    <string name="username_addpwd">用户名：</string>
+    <string name="password_addpwd">密码：</string>
+    <string name="randompwd_addpwd">随机</string>
+    <string name="email_addpwd">* 邮箱：</string>
+    <string name="url_addpwd">* 网址：</string>
+    <string name="phone_addpwd">* 电话：</string>
+    <string name="question_addpwd">* 密码保护的提问：</string>
+    <string name="answer_addpwd">* 密码保护的答案：</string>
+    <string name="submit_button_addpwd">提交</string>
+    <string name="clear_button_addpwd">清除</string>
+
+    <!-- 设置 -->
+    <string name="empty_account">清空已保存账户</string>
+    <string name="delete_register">删除此账号</string>
+
+    <!-- 侧滑菜单 -->
+    <string name="edit_swipe">修改</string>
+    <string name="delete_swipe">删除</string>
+
+</resources>

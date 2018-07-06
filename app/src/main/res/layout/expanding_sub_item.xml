@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+
+
+    <com.mcxtzhang.swipemenulib.SwipeMenuLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingBottom="1dp">
+
+        <TextView
+            android:id="@+id/expanding_sub_item_title"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:textSize="16sp"/>
+
+        <!-- 侧滑菜单 -->
+        <Button
+            android:id="@+id/edit_swipe"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDoderBlue"
+            android:text="@string/edit_swipe"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/delete_swipe"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorRed"
+            android:text="@string/delete_swipe"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+
+    </com.mcxtzhang.swipemenulib.SwipeMenuLayout>
+
+</LinearLayout>

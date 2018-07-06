@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ctv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhiteSmoke"
+    android:paddingTop="24dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="24dp">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="70dp" />
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/homepage_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        ctv:cBackgroundColor="@color/colorWhiteSmoke"
+        ctv:cLeftTextString="@string/home_page"
+        ctv:cLeftTextSize="18sp"
+        ctv:cLeftIconResForDrawableLeft="@drawable/left_drawer_menu_home_icon"
+        ctv:cShowDividerLineType="none" />
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/addPwd_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        ctv:cBackgroundColor="@color/colorWhiteSmoke"
+        ctv:cLeftTextString="@string/addPwd"
+        ctv:cLeftTextSize="18sp"
+        ctv:cLeftIconResForDrawableLeft="@drawable/left_drawer_menu_addpwd_icon"
+        ctv:cShowDividerLineType="none" />
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/checkPwd_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        ctv:cBackgroundColor="@color/colorWhiteSmoke"
+        ctv:cLeftTextString="@string/checkPwd"
+        ctv:cLeftTextSize="18sp"
+        ctv:cLeftIconResForDrawableLeft="@drawable/left_drawer_menu_checkpwd_icon"
+        ctv:cShowDividerLineType="none" />
+
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/setting_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        ctv:cBackgroundColor="@color/colorWhiteSmoke"
+        ctv:cLeftTextString="@string/setting"
+        ctv:cLeftTextSize="16sp"
+        ctv:cLeftIconResForDrawableLeft="@drawable/left_drawer_menu_setting_icon"
+        ctv:cShowDividerLineType="none" />
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/about_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        ctv:cBackgroundColor="@color/colorWhiteSmoke"
+        ctv:cLeftTextString="@string/about"
+        ctv:cLeftTextSize="16sp"
+        ctv:cLeftIconResForDrawableLeft="@drawable/left_drawer_menu_about_icon"
+        ctv:cShowDividerLineType="none" />
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/exit_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        ctv:cBackgroundColor="@color/colorWhiteSmoke"
+        ctv:cLeftTextString="@string/exit"
+        ctv:cLeftTextSize="16sp"
+        ctv:cLeftIconResForDrawableLeft="@drawable/left_drawer_menu_exit_icon"
+        ctv:cShowDividerLineType="none" />
+
+    
+
+</LinearLayout>

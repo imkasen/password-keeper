@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollview_addpwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_ap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorDoderBlue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="24dp">
+
+            <!-- 标题 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/title_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/title_addpwd"
+                android:inputType="text"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <!-- 用户名 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/username_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/username_addpwd"
+                android:inputType="text"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <!-- 密码 -->
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/password_add_pwd"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+
+                    android:hint="@string/password_addpwd"
+                    android:inputType="textVisiblePassword"
+                    android:textSize="14sp"
+                    app:met_baseColor="#000000"
+                    app:met_clearButton="true"
+
+                    app:met_errorColor="@color/colorRed"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorDoderBlue" />
+
+                <!-- 随机按钮 -->
+                <com.gc.materialdesign.views.ButtonRectangle
+                    android:id="@+id/randompwd_button_addpwd"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:padding="12dp"
+                    android:background="@color/colorDoderBlue"
+                    android:textSize="8sp"
+                    android:text="@string/randompwd_addpwd">
+                </com.gc.materialdesign.views.ButtonRectangle>
+
+            </LinearLayout>
+
+            <!-- 邮箱 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/email_addpwd"
+                android:inputType="textEmailAddress"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <!-- 网址 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/url_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/url_addpwd"
+                android:inputType="text"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <!-- 电话 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phone_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/phone_addpwd"
+                android:inputType="phone"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <!-- 密保问题 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/question_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/question_addpwd"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <!-- 密保答案 -->
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/answer_add_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:hint="@string/answer_addpwd"
+                android:inputType="textVisiblePassword"
+                android:textSize="14sp"
+                app:met_baseColor="#000000"
+                app:met_clearButton="true"
+
+                app:met_errorColor="@color/colorRed"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorDoderBlue" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <!-- 清除按钮 -->
+                <com.gc.materialdesign.views.ButtonRectangle
+                    android:id="@+id/clear_button_addpwd"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="12dp"
+                    android:background="@color/colorRed"
+                    android:textSize="8sp"
+                    android:text="@string/clear_button_addpwd">
+                </com.gc.materialdesign.views.ButtonRectangle>
+
+                <!-- 确认按钮 -->
+                <com.gc.materialdesign.views.ButtonRectangle
+                    android:id="@+id/submit_button_addpwd"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="12dp"
+                    android:background="@color/colorDoderBlue"
+                    android:textSize="8sp"
+                    android:text="@string/submit_button_addpwd">
+                </com.gc.materialdesign.views.ButtonRectangle>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.gc.materialdesign.views.ScrollView>

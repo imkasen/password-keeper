@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ctv="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorDoderBlue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp" >
+
+            <com.allen.library.CommonTextView
+                android:id="@+id/hello_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+
+                ctv:cLeftTextString="@string/hello"
+                ctv:cLeftTextSize="36sp"
+                ctv:cShowDividerLineType="both" />
+
+            <TextView
+                android:id="@+id/sum_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+
+                android:textSize="24sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.gc.materialdesign.views.ScrollView>
